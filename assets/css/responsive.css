@@ -1,0 +1,561 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+    .logo-area {
+        padding-top: 16px;
+    }
+    .header-area .menu-area nav ul li a {
+        font-size: 15px; 
+        font-weight: 600; 
+        padding: 6px; 
+    }
+    .header-area .menu-area nav ul li a.drop-down:before { 
+        border-left: 10px solid #f59400;
+        border-top: 9px solid #fff0;
+        right: -10px;
+        top: 10px; 
+    }
+    .header-area .menu-area nav ul li a.drop-down:hover:before {
+        transform: rotate(135deg);
+        top: 15px;
+    }
+    .header-area .menu-area nav ul li a.drop-down { 
+        margin-right: 5px;
+    }
+    .header-area .menu-area nav ul li a:after { 
+        bottom: 0px; 
+    }
+    img.fImg {
+        width: 100%;
+    }
+
+    img.Simg {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    img.Limg {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .flatfopprm-wrepper {
+        padding: 50px 0;
+    }
+    .sectio-title h4 {
+        font-size: 39px; 
+    }
+    .sectio-title p {
+        font-size: 16px;
+    }
+.last-option{
+    margin-top: 100px;
+}
+ul.last-socil a {
+    margin-right: 0;
+}
+.footer-wiget ul li a { 
+    margin-right: 7px; 
+}
+.copyRight-text p { 
+    font-size: 14px;
+}
+.hero-area.project .her-wrepper {
+    background: transparent;
+    margin-top: 0;
+    top: 170px;
+}
+.hero-positionBox {
+    position: absolute;
+    bottom: 100px;
+    right: 30%;
+    border: 2px dotted;
+    padding: 20px;
+    width: 320px;
+    border-radius: 10px;
+}
+.productLogo {
+    margin-bottom: 30px;
+}
+.product-area.services .single-Product .product-wrepper {
+    border: none;
+    padding: 0;
+    margin-right: 0;
+}
+.hero-area.project.services .her-wrepper h3 {
+    font-size: 40px;
+}
+.contact-form {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .menu-area{
+        display: none;
+    }
+	div#offcanvas-navicon {
+        display: block !important; 
+        background: none;
+        right: 30px;
+        top: 28px;
+    }
+    #offcanvas-navicon:after, #offcanvas-navicon:before, #offcanvas-navicon span {
+        display: block;
+        content: '';
+        display: block;
+        height: 4px;
+        margin: 4px;
+        border-radius: 2px;
+        background: #fff;
+        transition: all 400ms ease;
+    }
+    #offcanvas-sidebar {
+        background: #0a4073;
+        padding-top: 100px;
+    }
+    #offcanvas-sidebar ul {
+        border-top: none;
+    }
+    
+    #offcanvas-sidebar ul li {
+        display: block;
+        text-align: left;
+        border: none;
+    }
+    
+    #offcanvas-sidebar ul li a {
+        display: block;
+        text-transform: capitalize;
+        color: #fff;
+        font-weight: 400;
+        padding: 11px;
+    }
+    #offcanvas-sidebar ul li a.active {
+        background: #285784;
+    }
+    #offcanvas-sidebar ul li a:hover {
+        background: #ffffff1f;
+    }
+    .offcanvas-child-link {  
+        border-left: 1px solid #0000;
+        padding: 6px 16px;
+        background: #285784;
+        color: #aaa; 
+    }
+    .offcanvas-child-link:hover {
+        background: #285784;
+    }
+    span.offcanvas-child-back-link {
+        border: none;
+    }
+    span.offcanvas-child-back-link:hover {
+        background: transparent;
+    }
+    .flatfopprm-wrepper {
+        padding: 30px;
+    }
+    .sectio-title p {
+        font-size: 12px;
+    }
+    
+    .her-wrepper {
+        text-align: center;
+        position: relative;
+        top: 75px;  
+        border-radius: 0; 
+    }
+    .her-wrepper h3 {
+        font-size: 22px; 
+    }
+    .her-wrepper h3 span {
+        font-size: 16px;
+    }
+    .her-wrepper h5 {
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+    }
+    .her-wrepper a.theme-btn {
+        width: 100%;
+        border-radius: 0;
+    }
+    .hero-area { 
+        height: 400px; 
+    }
+    .about-area .abou-wrepper h4 {
+        font-size: 17px; 
+    }
+    body { 
+        font-size: 12px;
+      }
+      a.theme-btn {
+        width: 160px;
+        height: 40px; 
+        line-height: 40px;
+        font-size: 17px;  
+    }
+    img.Simg {
+        width: 100%;
+        height: 135px;
+        margin-bottom: 30px;
+        object-fit: cover;
+    }
+    img.Limg {
+        width: 100%;
+        height: 135px; 
+        object-fit: cover;
+    }
+    .flatform-img img { 
+        height: 300px; 
+    }
+    .flatfopprm-wrepper h3 {
+        font-size: 26px;
+        font-weight: 700;
+        padding-bottom: 0px;
+    }
+    .feture-area h2 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        color: #fff;
+        padding-bottom: 5px;
+    }
+    .feture-area .feture-wrepper { 
+        display: inline-table; 
+    }
+    .feture-area .feture-wrepper img {
+        width: 100%;
+        margin-right: 0;
+        height: 130px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .feture-area .feture-wrepper img {
+        width: 100%;
+        margin-right: 0;
+        height: 130px;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 15px;
+    }
+    .feture-area .feture-wrepper .feture-box-wrepper a {
+        font-size: 16px; 
+    } 
+    .feture-area a.theme-btn {
+        width: 100%;
+    }
+    .sectio-title h4 {
+        font-size: 26px; 
+    }
+    .mt-50{
+        margin-top: 50px;
+    }
+    .advanced-option a.theme-btn {
+        width: 100%;
+    }
+    .option-inner .ooption-img {
+        width: 80px;
+        height: 80px; 
+        top: -40px; 
+    }
+    .option-inner .ooption-img img { 
+        width: 35px;
+    }
+    .option-inner h4 {
+        font-size: 20px; 
+    }
+    .option-inner a { 
+        padding: 10px; 
+    }
+    a.footer-logo {
+        text-align: center;
+    }
+    .productLogo {
+        margin-bottom: 30px;
+    }
+    .hero-area.project .her-wrepper h3 {
+        font-size: 47px; 
+    }
+    .hero-area.project { 
+        height: 450px; 
+    }
+    .hero-area.project .her-wrepper {
+        background: transparent;
+        margin-top: 0;
+        top: 50px;
+    }
+    .hero-positionBox {
+        position: absolute;
+        bottom: 50px;
+        right: -140px;
+        border: 2px dotted;
+        padding: 12px;
+        width: 300px;
+        border-radius: 10px;
+        transform: translate(-50%, -50%);
+    }
+    .hero-area.project .her-wrepper span {
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding: 3px 0;
+    }
+    .single-Product .product-wrepper {
+        border-right: none;
+        padding-right: 0px;
+    }
+    .logo-area img {
+        width: 110px;
+        margin-left: 10px;
+    }
+    .product-area.services .single-Product .product-wrepper {
+        border: none;
+        padding: 0;
+        margin-right: 0;
+    }
+    .hero-area.project.services { 
+        height: 450px;  
+    }
+    .hero-area.project.services .her-wrepper h3 {
+        font-size: 22px;
+    }
+    .about-wrepper-right {
+        padding-top: 0px;
+        border-left: 2px solid #EBEDED;
+        padding-left: 25px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .about-team h4 { 
+        font-size: 26px; 
+    }
+    .team ul li {
+        height: 110px;
+    }
+    .contact-form {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .team ul li h3 {
+        width: 64%; 
+        padding-top: 15px;
+    }
+    .team ul li img {
+        width: 75px; 
+        margin-right: 15px;
+    }
+    .footer-wiget form a { 
+        top: 7px; 
+    }
+    .footer-wiget ul.social li a {
+        font-size: 22px; 
+    }
+    img.fImg {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hero-area { 
+        height: 600px; 
+    }
+    .feture-area h2 { 
+        font-size: 43px; 
+    }
+    span.offcanvas-child-back-link {
+        border: none;
+    }
+    .flatfopprm-wrepper {
+        padding: 30px;
+    }
+    .sectio-title h4 {
+        font-size: 35px; 
+    }
+    .sectio-title p {
+        font-size: 16px;
+    }
+    a.theme-btn {
+        width: 256px;
+        height: 56px;
+        background: #f59400;
+        display: block;
+        text-align: center;
+        line-height: 56px;
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        border-radius: 30px;
+    }
+    .her-wrepper a.theme-btn {
+        width: 256px;;
+        border-radius: 30px;
+        margin: auto;
+    }
+    .feture-area a.theme-btn {
+        width: 256px;
+    }
+    .her-wrepper {
+        position: relative;
+        top: 235px;
+        background: #0a407399;
+        padding: 20px;
+        border-radius: 10px 10px 0px 0px;
+        padding-top: 25px;
+    }
+    .her-wrepper h3 {
+        font-size: 35px; 
+    }
+    .her-wrepper h3 span {
+        font-size: 26px;
+    }
+    .her-wrepper h5 {
+        color: #fff;
+        font-weight: 600;
+        line-height: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    .about-area .abou-wrepper h4 {
+        font-size: 28px; 
+    }
+    body { 
+        font-size: 16;
+      }
+      .option-inner .ooption-img { 
+        top: -50px;
+    }
+      .flatform-img img { 
+        height: 300px; 
+    }
+    .flatfopprm-wrepper h3 {
+        font-size: 39px;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+    .feture-area .feture-wrepper { 
+        display: flex; 
+    }
+    .feture-area .feture-wrepper img {
+        width: 140px;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+    .feture-area .feture-wrepper .feture-box-wrepper a {
+        font-size: 20px; 
+    }
+    .sectio-title h4 {
+        font-size: 46px; 
+    }
+    .mt-100{
+        margin-top: 100px;
+    }
+    .option-inner .ooption-img {
+        width: 96px;
+        height: 96px; 
+    }
+    .option-inner .ooption-img img { 
+        width: 45px;
+    }
+    .option-inner h4 {
+        font-size: 28px; 
+    }
+    .advanced-option a.theme-btn { 
+        width: 320px; 
+    }
+    .hero-area.project { 
+        height: 450px;  
+    }
+    .hero-area.project .her-wrepper {
+        background: transparent;
+        margin-top: 50px;
+        top: 0;
+    }
+    .hero-positionBox {
+        position: absolute;
+        bottom: 30px;
+        right: -40px;
+        border: 2px dotted;
+        padding: 20px;
+        width: 320px;
+        border-radius: 10px;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero-area.project .her-wrepper span {
+        display: inline-block;
+        margin: 20;  
+    }
+    .single-Product .product-wrepper {
+        border-right: 2px solid #EBEDED;
+        padding-right: 31px;
+    }
+    .hero-area.project.services .her-wrepper h3 {
+        font-size: 33px;
+    }
+  
+    .team ul li {
+        height: 140px;
+    }
+    .team ul li h3 {
+        width: 73%;
+        float: left;
+        font-size: 24px;
+        font-weight: 500;
+        padding-top: 25px;
+    }
+    .team ul li img {
+        width: 100px;
+        float: left;
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+
+
+
+
+
+
+
+
+}
